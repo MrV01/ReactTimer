@@ -1,0 +1,7 @@
+/* Application specific */
+/* Import  PostCSS SCSS   using Postfix  workflow chain */
+/* Example: */
+/*
+@import "assets/css/colors.pscss";
+@import "assets/css/typography.pscss";
+*/
