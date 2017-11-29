@@ -25,7 +25,6 @@ const paths = {
   SRC: path.resolve(__dirname, 'public'),
   JS: path.resolve(__dirname, 'app'),
   CUSTOMCSS: path.resolve(__dirname, 'app/styles'),
-  STATICCSS: path.resolve(__dirname, 'app/css'),
   COMPONENTS: path.resolve(__dirname, 'app/components'),
   API: path.resolve(__dirname, 'app/api'),
   NODE_MODULES: path.resolve(__dirname, 'node_modules'),

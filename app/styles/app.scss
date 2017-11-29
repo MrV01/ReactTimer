@@ -1,17 +1,6 @@
 /*
   * Application specific  SASS'y Styling
   */
-
-$space-large: 2.5rem;
-$title-color: #555;
-
-.page-title {
-  color: $title-color;
-  margin-top: $space-large;
-  margin-bottom: $space-large;
-}
-
-/* Styling NO shadows in ALL input elements with type = search*/
-input[type=search] {
-  box-shadow: none;
-}
+@import "base/variables";
+// SCSS  owerwrite of  Foundation Default navigation menu styles
+@import "components/navigation";

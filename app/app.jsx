@@ -7,20 +7,15 @@ var Main = require('Main');
 var Timer = require('Timer');
 
 // Import PostCSS SCSS stylesheets from static files.
-// import './app.pscss';
 // require ('./app.pscss');
-// Load Foundation framework into  SASS stylesheets bundle.
-//  ( according to  Foundation site.)
-// require ('./app.scss');
 // Or inject Foundation into app.jsx  JS bundle using style-loader   npm module
 require('style-loader!foundation-sites/dist/foundation.min.css');
 // Foundation depends on jQuery.  jQuery included by definition.
 // Fire up Foundation, using jQuery module loaded by webpack.
 $(document).foundation();
 
-//  Inject the app custom SASS
+//  Inject the app custom SASS including  Foundation styles overwrite
 require('style-loader!applicationStyles');
-
 
 ReactDOM.render(
   <Router history={hashHistory}>

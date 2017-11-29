@@ -1,0 +1,16 @@
+//  Nav componenets css
+
+//
+//  Foundation styles overwrite
+//
+// Change background color of the Navigation menu
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
+//
+//  Change text color of the menu.
+.top-bar {
+  .menu-text {
+    color: $nav-text-color;
+  }
+}
