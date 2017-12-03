@@ -3447,3 +3447,6 @@ table.hover tr:nth-of-type(even):hover {
 
 .top-bar .menu-text {
   color: #FFF; }
+
+.top-bar .active-link {
+  font-weight: bold; }

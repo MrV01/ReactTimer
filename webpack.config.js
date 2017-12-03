@@ -71,6 +71,7 @@ const config =  {
         Nav: path.join(paths.COMPONENTS,'Nav.jsx'),
         Clock: path.join(paths.COMPONENTS,'Clock.jsx'),
         Timer: path.join(paths.COMPONENTS,'Timer.jsx'),
+        Countdown: path.join(paths.COMPONENTS,'Countdown.jsx'),
         Controls: path.join(paths.COMPONENTS,'Controls.jsx'),
         applicationStyles: path.join(paths.CUSTOMCSS,'app.scss'),
       },

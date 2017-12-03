@@ -3,8 +3,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+// Custom components
 var Main = require('Main');
 var Timer = require('Timer');
+var Countdown = require('Countdown');
 
 // Import PostCSS SCSS stylesheets from static files.
 // require ('./app.pscss');
@@ -25,7 +27,7 @@ ReactDOM.render(
       {/*  path to Timer page (component) */}
         <Route path="timer" component={Timer}/>
         {/*  path to Countdown page (component) */}
-          <Route path="countdown" component={Timer}/>
+          <Route path="countdown" component={Countdown}/>
           {/*  Default route (does not match any path) URL and component in nav Menu */}
             <IndexRoute component={Timer}/>
     </Route>
