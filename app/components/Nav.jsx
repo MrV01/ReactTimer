@@ -21,7 +21,7 @@ var Nav = React.createClass({
           <div className="top-bar-right">
             <ul className="menu">
               <li className="menu-text">
-                <span> Created by <a href="https://github.com/MrV01/ReactTimer.git" target="_blank" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Mr. V</a></span>
+                <span> Created by <a href="https://github.com/MrV01/ReactTimer.git" target="_blank" >Mr. V</a></span>
             </li>
             </ul>
           </div>
